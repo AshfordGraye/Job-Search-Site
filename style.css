@@ -1,114 +1,91 @@
 html {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-rendering: geometricPrecision;
-    font-size: 16pt;
-    background-color: lightslategray;
-
+    background-color: whitesmoke;
+    
 }
 
 body {
-    background: light;
+    min-width: max-content;
     border-radius: 20px;
-    padding: 20px;
-    min-width: 1400px;
-    max-width: 1920px;
-    margin: auto;
+    padding: 10px;
+    background-color: #4c5068;
 }
+
+#main-window {
+    max-width: 2560;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    background-color:#cc0464;
+
+}
+
 
 #menubar {
     display: flex;
-    position: sticky;
-    top: 20;
-    height: fit-content;
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: contain;
     align-items: center;
-    background-color: whitesmoke;
-    border-radius: 10px;
     justify-content: space-between;
+    background-color: whitesmoke;
+    box-sizing: border-box;
 }
 
-.homelogo_loginbutton {
-    /* display: flex; */
-    margin-left: 20px;
+.homelogo {
+    margin-left: 10px;
 }
 
-.companylogo {
+.homelogo img {
     width: auto;
-    height: 100px;
-}
-
-.homelogo_loginbutton button {
-    align-self: center;
-    margin-left: 20px;
-    font-size: 16pt;
+    height: 100%;
 }
 
 .socialmedialinks {
-    margin-right: 20px;
-    padding-top: 4px;
-    height: fit-content;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    margin-right: 10px;
+    object-fit: contain;
 }
 
-.socialmedialogo {
-    width:40px;
-    height: 40px;
+.socialmedialinks a {
+    width: auto;
+    height: 50%;
+}
+
+.socialmedialinks img {
+    width: auto;
+    height: 50%;
 }
 
 #navbar {
     display: flex;
+    height: fit-content;
     justify-content: space-between;
     margin: 10px 0px 10px 0px;
-}
-
-.navbar_regions {
-    height: fit-content;
-    background-color: whitesmoke;
     padding: 10px;
-    border-radius: 10px;
-    justify-content: space-around;
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
 
-.navbar_regions select {
+#navbar button, select {
+    font-size: 14px;
+}
+
+#navbar select {
     background-color: transparent;
-    font-size: 16pt;
-}
-
-.navbar_login {
-    height: fit-content;
-    background-color: whitesmoke;
-    padding: 10px;
-    border-radius: 10px;
-    justify-content: space-around;
-}
-
-.navbar_login button {
-    font-size: 16pt;
-}
-
-.navbar_references {
-    display: flex;
-    height: fit-content;
-    background-color: whitesmoke;
-    padding: 10px;
-    margin-left: 20px;
-    border-radius: 10px;
-    justify-content: space-around;
-}
-
-.navbar_references button {
-    font-size: 16pt;
 }
 
 #mainpagebody {
         display: flex;
         flex-direction: column;
-        height: fit-content;
         align-items: center;
         justify-content: space-around;
         padding: 10px;
+        border-radius: 5px;
         background-color: whitesmoke;
-        border-radius: 10px;
     }
-
-.longboi {
-    height: 1440px;
-}
