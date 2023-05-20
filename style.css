@@ -141,6 +141,12 @@ body {
     box-sizing: border-box;
     background-color: whitesmoke;
     }
+
+    #mainpagebody div img {
+        height: auto;
+        width: 100%;
+        align-self: center;
+    }
     
     /* DIVS WITHIN MAINPAGEBODY */
     #mainpagebody div {
@@ -148,11 +154,13 @@ body {
         margin: auto;
     }
 
+
+    /* FORMSECTION IS TO NARROW THE FORMS SO THEY DON'T LOOK TOO WIDE. */
     #mainpagebody .formsection {
         width: 80%;
     }
 
-    /* FORMS WITHIN MAINPAGEBODY DIVS */
+    /* FORMS WITHIN DIVS */
     #mainpagebody form {
         display: flex;
         flex-direction: column;
@@ -161,14 +169,14 @@ body {
         width: 100%;
     }
     
-        /* DIVS WITHIN MAINPAGEBODY FORMS */
+        /* DIVS WITHIN FORMS :S */
         #mainpagebody form div {
             width: 80%;
             padding-bottom: 5px;
         }
 
         
-        #mainpagebody form label, input{
+        #mainpagebody form label, input {
             width: 50%;
             float: left;
         }
@@ -196,9 +204,7 @@ body {
 
         #mainpagebody .contact-us-region-selector {
             margin:0;
-            width: 25%;
             max-width: 300px;
-            padding-left: 20px;
             padding-right: 20px;
         }
 
@@ -208,7 +214,6 @@ body {
         }
 
         #mainpagebody .contact-us-region-selected {
-            max-width: 75%;
             text-align: right;
         }
 
