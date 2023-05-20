@@ -18,7 +18,7 @@
             </section>
             <section id="navbar">
                     <div>
-                        <a href="main_profile_register_login.html"><button>Login / Register</button></a>
+                        <a href="main_profile_register_login.html"><button id = "loginlink">Login / Register</button></a>
                         <label for="navbar">Look for jobs:</label>
                         <select>
                             <option selected disabled> UK / Ireland</option>
@@ -48,7 +48,55 @@
                     </div>
             </section>
             <section id="mainpagebody">
-                job search page
+                <div class="formsection">
+
+                    <div>
+                        <form>
+                            <div class="centertext">
+                                <h1>New to Kerridge Careers?</h1>
+                                <p>Sign up here:</p>
+                            </div>
+                            <div>
+                                <label for="first-name">Name: </label><input type="text">
+                            </div>
+                            <div>
+                                <label for="last-name">Surname:</label><input type="text">
+                            </div>
+                            <div>
+                                <label for="email-address">Email address:</label><input type="text">
+                            </div>
+                            <div>
+                                <label for="confirm-email-address">Email address confirmation:</label><input type="text">
+                            </div>
+                            <div>
+                                <label for="password">Password:</label><input type="text">
+                            </div>
+                            <div>
+                                <label for="password">Password confirmation:</label><input type="text">
+                            </div>
+                        </form>
+                        <div>
+                            <a href="main_profile_register_thank_you.html"><button style="float: right;">Sign Up</button></a>
+                        </div>
+                    </div>
+                    <div>
+                        <form>
+                            <div class="centertext">
+                                <h1>Already with us?</h1>
+                                <p>Login in here:</p>
+                            </div>
+                            <div>
+                                <label for="email-login">Email:</label><input type="text">
+                            </div>
+                            <div>
+                                <label for="password-login">Password:</label><input type="text">
+                            </div>
+                        </form>
+                        <div>
+                            <a href="main_profile_forgot_password.html"><button >Forgot your password?</button></a><a href="main_profile_user.html"><button>Login</button></a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </section>
     </body>
