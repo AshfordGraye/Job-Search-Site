@@ -24,7 +24,7 @@ Current code types implemented:
 - [ ] Add modal functionality for 'sign up' and request 'password reset buttons'
 - [ ] Make the site more reactive to different window sizes
 - [ ] Investigate and implement backend functionality for storage of information
-      - Start with user profile to log into
-        - Then, implement more granular user info
-      - Can then use a similar system to store job information
+- Start with user profile to log into
+      - Then, implement more granular user info
+- Can then use a similar system to store job information
 - [ ] Investigate and implement how to filter and display job information. 
