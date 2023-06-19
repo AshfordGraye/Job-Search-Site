@@ -12,7 +12,7 @@ Current code types implemented:
 
 *Project complete to assignment spec, however further work is ongoing.*
 
-> The site itself has some quirks that were necessary to produce a demonstration-ready product, and don't readily show themselves. Here they are:
+> The site itself has some quirks that were necessary to produce a demonstration-ready product, and don't readily show themselves:
 >
 > - When looking at the 'contact us' section, only TWO locations will actually load anything from the drop down menus - Houston, Texas and Gateshead, UK. Selecting anywhere else will NOT load anything.
 > - The text entry fields 'work' but don't actually save anything
@@ -22,4 +22,9 @@ Current code types implemented:
 ## To Do:
 
 - [ ] Add modal functionality for 'sign up' and request 'password reset buttons'
-- [ ] Investigate and implement backend functionality for storage of user information
+- [ ] Make the site more reactive to different window sizes
+- [ ] Investigate and implement backend functionality for storage of information
+      - Start with user profile to log into
+        - Then, implement more granular user info
+      - Can then use a similar system to store job information
+- [ ] Investigate and implement how to filter and display job information. 
